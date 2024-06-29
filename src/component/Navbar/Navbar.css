@@ -1,0 +1,30 @@
+.nav-contaner {
+  display: flex;
+  padding: 10px 40px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(182, 177, 177);
+}
+.Nav-item {
+}
+.div-list {
+}
+.Nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.Nav-list li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.icon img {
+  width: 1.5rem;
+  height: 24px;
+  margin-left: 20px;
+}
