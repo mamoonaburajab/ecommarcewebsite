@@ -5,32 +5,33 @@ import laptop from "../../assets/images/61Qe0euJJZL.jpg";
 import phone from "../../assets/images/15723463.jpg";
 import Gamming from "../../assets/images/Controller-XL@2x.webp";
 import smartWatch from "../../assets/images/images.jpeg";
-import './Category.css';
+import "./Category.css";
+
 const Category = () => {
   return (
     <div className="category">
       <div>
-        <img src={Accessories} alt="" />
+        <img src={Accessories} alt="Accessories" />
         <h1>Accessories</h1>
       </div>
       <div>
-        <img src={camera} alt="" />
+        <img src={camera} alt="Camera" />
         <h1>Camera</h1>
       </div>
       <div>
-        <img src={laptop} alt="" />
+        <img src={laptop} alt="Laptop" />
         <h1>Laptop</h1>
       </div>
       <div>
-        <img src={phone} alt="" />
+        <img src={phone} alt="Smart Phone" />
         <h1>Smart Phone</h1>
       </div>
       <div>
-        <img src={Gamming} alt="" />
+        <img src={Gamming} alt="Gaming" />
         <h1>Gaming</h1>
       </div>
       <div>
-        <img src={smartWatch} alt="" />
+        <img src={smartWatch} alt="Smart Watch" />
         <h1>Smart Watch</h1>
       </div>
     </div>

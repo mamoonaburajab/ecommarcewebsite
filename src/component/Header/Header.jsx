@@ -1,6 +1,7 @@
 import React from "react";
 import laptop from "../../assets/images/MacBook Air 13 (2018-2019) Skins - Custom _ Body + Keyboard Surround.jpeg";
 import "./Header.css";
+
 const Header = () => {
   return (
     <div className="header">
@@ -14,7 +15,7 @@ const Header = () => {
         <input type="submit" value="Explore More" className="btn-header" />
       </div>
       <div>
-        <img src={laptop} alt="" className="laptop-img" />
+        <img src={laptop} alt="Laptop" className="laptop-img" />
       </div>
     </div>
   );

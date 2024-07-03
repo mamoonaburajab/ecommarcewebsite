@@ -5,34 +5,24 @@
   padding: 0px;
   gap: 24px;
   justify-content: space-between;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin: 50px auto;
   width: 1224px;
   height: 196px;
-  left: calc(50% - 1224px / 2);
-  top: 592px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid rgb(92, 90, 90); 
-  
-  
+  border-bottom: 1px solid rgb(92, 90, 90);
 }
+
 .category > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
+
 .category > div > img {
   width: 148px;
   height: 148px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .category > div > h1 {
-  width: 91px;
-  height: 24px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
@@ -40,9 +30,43 @@
   line-height: 24px;
   text-align: center;
   color: #2d2d2d;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin-bottom: 100px;
+  margin-top: 10px;
+}
 
+@media (max-width: 768px) {
+  .category {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: -20px;
+  }
+
+  .category > div {
+    /* margin-bottom: 20px; */
+  }
+
+  .category > div > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .category > div > h1 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category {
+    gap: 12px;
+  }
+
+  .category > div > img {
+    width: 90px;
+    height: 100px;
+  }
+
+  .category > div > h1 {
+    font-size: 18px;
+  }
 }
