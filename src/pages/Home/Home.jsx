@@ -3,6 +3,7 @@ import Navbar from "../../component/Navbar/Navbar";
 import Header from "../../component/Header/Header";
 import Category from "../../component/Category/Category";
 import SaleProducts from "../../component/Sale-Products/Sale-Products";
+import NewProduct from "../../component/New-product/NewProduct";
 
 const Home = () => {
   return (
@@ -19,7 +20,9 @@ const Home = () => {
       <div>
         <SaleProducts />
       </div>
-      <div></div>
+      <div>
+        <NewProduct/>
+      </div>
     </div>
   );
 };
