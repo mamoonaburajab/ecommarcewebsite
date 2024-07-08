@@ -4,7 +4,9 @@ import Header from "../../component/Header/Header";
 import Category from "../../component/Category/Category";
 import SaleProducts from "../../component/Sale-Products/Sale-Products";
 import NewProduct from "../../component/New-product/NewProduct";
-
+import cover from "../../assets/images/iPhoneApple.jpg";
+import playstation from "../../assets/images/Live-from-PS5.jpg";
+import "./Home.css";
 const Home = () => {
   return (
     <div>
@@ -21,8 +23,13 @@ const Home = () => {
         <SaleProducts />
       </div>
       <div>
-        <NewProduct/>
+        <NewProduct />
       </div>
+      <div className="img-contaner">
+        <img className="img-home-iphone" src={cover} alt="" />
+        <img className="img-home-playstation" src={playstation} alt="" />
+      </div>
+      <div></div>
     </div>
   );
 };
