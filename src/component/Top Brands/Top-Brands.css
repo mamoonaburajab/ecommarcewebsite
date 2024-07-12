@@ -1,0 +1,42 @@
+.top-brands-container {
+    text-align: center; /* Center align the content */
+    margin: 20px; /* Add margin around the container */
+  }
+  
+  .top-brands-header {
+    margin-bottom: 10px 0px; /* Add space below the header */
+    text-align: left;
+    margin-left: 45px;
+
+}
+  
+  .brands-list {
+    display: flex; /* Use flexbox for the brands list */
+    justify-content: space-around; /* Distribute items evenly along the row */
+    flex-wrap: wrap; /* Enable wrapping for responsiveness */
+  }
+  
+  .brand-logo {
+    width: 150px; /* Set a fixed width for each logo */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add margin around each logo */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+  .top-brands-header {
+    margin-top: 40px;
+
+    text-align: center;}
+    .brand-logo {
+      width: 120px; /* Adjust width for smaller screens */
+      
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .brand-logo {
+      width: 100px; 
+    }
+  }
+  

@@ -7,6 +7,8 @@ import NewProduct from "../../component/New-product/NewProduct";
 import cover from "../../assets/images/iPhoneApple.jpg";
 import playstation from "../../assets/images/Live-from-PS5.jpg";
 import "./Home.css";
+import BestSellers from "../../component/Best Sellers/BestSellers";
+import TopBrands from "../../component/Top Brands/TopBrands";
 const Home = () => {
   return (
     <div>
@@ -29,7 +31,12 @@ const Home = () => {
         <img className="img-home-iphone" src={cover} alt="" />
         <img className="img-home-playstation" src={playstation} alt="" />
       </div>
-      <div></div>
+      <div>
+        <BestSellers/>
+      </div>
+      <div>
+        <TopBrands/>
+      </div>
     </div>
   );
 };
